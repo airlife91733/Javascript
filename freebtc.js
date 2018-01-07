@@ -2,7 +2,7 @@
 // @name         Freebitco.in 自動賺錢腳本 v1.5
 // @namespace    https://www.facebook.com/airlife917339
 // @version      1.5
-// @description  feel free to donate: 1xb8F4x76ptN2H9MUAhZjvofKw2im1sdq
+// @description  歡迎打賞(donate): 1xb8F4x76ptN2H9MUAhZjvofKw2im1sdq
 // @author       Kevin Chang
 // @match        https://freebitco.in/*
 // @grant        none
