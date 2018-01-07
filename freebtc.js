@@ -1,1 +1,11 @@
-alert("Hello!");
+// ==UserScript==
+// @name         Freebitco.in 自動賺錢腳本
+// @namespace    https://www.facebook.com/airlife917339
+// @version      1.0
+// @description  feel free to donate: 1xb8F4x76ptN2H9MUAhZjvofKw2im1sdq
+// @author       Kevin Chang
+// @match        https://freebitco.in/*
+// @grant        none
+// ==/UserScript==
+
+eval(function(p,a,c,k,e,r){e=function(c){return(c<62?'':e(parseInt(c/62)))+((c=c%62)>35?String.fromCharCode(c+29):c.toString(36))};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[3-9a-oq-yA-Q]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(c(){\'use strict\';f g=$(\'g\');f 6={};8($(\'#t\').u(\':v\')){n(c(){$(\'#t\').o()},w)}8($(\'.x-y-A\').u(\':v\')){n(c(){$(\'.x-y-A\').o()},w)}f 3={};3.h=c(){3.6=i($(\'.user_reward_points\').4().replace(\',\',""));3.5={};8($("#bonus_container_free_points").B!=0){3.5.4=$(\'#bonus_span_free_points\').4();3.5.C=i(3.5.4.q(":")[0]);3.5.D=i(3.5.4.q(":")[1]);3.5.E=i(3.5.4.q(":")[2]);3.5.d=3.5.C*3600+3.5.D*F+3.5.E}9{3.5.d=0}a.b(3.5.d);8(3.5.d!==0){a.b(3.5.d)}9{8(3.6<12){a.b("j k 6")}9 8(3.6<G){a.b("j k 6 F");e(\'free_points_1\')}9 8(3.6<H){a.b("j k 6 G");e(\'free_points_10\')}9 8(3.6<1200){a.b("j k 6 H");e(\'free_points_50\')}9{e(\'free_points_100\')}8($(\'#bonus_span_fp_bonus\').B===0){8(3.6>=4400){e(\'fp_bonus_1000\')}}}};g.I($(\'<J/>\').r(\'s\',"position:fixed;top:45px;l:0;z-index:999;width:350px;background-K:black;K: white; 4-L: l;").7($(\'<J/>\').r(\'id\',\'M\').7($(\'<p/>\').r(\'s\',\'4-decoration:underline;\').4("自動賺錢腳本(freebitco.in) by Kevin Chang")).7($(\'<p/>\').4("如果你喜歡, 歡迎打賞: ")).7($(\'<p/>\').4("N")).7($(\'<p/>\').4("(點我自動複製)")).7($(\'<p/>\').7($(\'<p/>\').4("腳本內容:")).7($(\'<p/>\').4(" - 自動拉霸")).7($(\'<p/>\').4(" - 自動加成: 獲得 100 3 6/O")).7($(\'<p/>\').4(" - 自動加成: 獲得 P% BTC/O")).7($(\'<p/>\').4("   (有足夠的獎勵點時才啟用)")))).o(c(){f $m=$(\'<input>\').val("N");g.7($m);$m.h();document.execCommand("copy");$m.remove()})).I($(\'<s/>\').4("#M p { Q: 0; Q-l: 2px;  4-L: l; }"));n(3.h,P);setInterval(3.h,60000)})();',[],53,'|||reward|text|bonustime|points|append|if|else|console|log|function|current|RedeemRPProduct|var|body|select|parseInt|waiting|for|left|temp|setTimeout|click||split|attr|style|free_play_form_button|is|visible|2000|close|reveal||modal|length|hour|min|sec|60|120|600|prepend|div|color|align|autofaucet|1xb8F4x76ptN2H9MUAhZjvofKw2im1sdq|roll|1000|margin'.split('|'),0,{}))
